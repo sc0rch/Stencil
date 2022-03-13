@@ -7,7 +7,7 @@ public struct Environment {
   public init(
     loader: Loader? = nil,
     extensions: [Extension] = [],
-    templateClass: Template.Type = Template.self
+    templateClass: Template.Type = Template.self,
     trimBehavior: TrimBehavior = .none
   ) {
     self.templateClass = templateClass
